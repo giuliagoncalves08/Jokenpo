@@ -1,0 +1,50 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe6f2; /* Fundo em tom de rosa claro */
+}
+
+.container {
+  text-align: center;
+  background-color: #ffcce6; /* Fundo do container em tom de rosa médio */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px; /* Limita a largura do container */
+}
+
+.titulo {
+  color: #ff99cc; /* Título em tom de rosa mais escuro */
+  margin-bottom: 20px;
+}
+
+.placar, .escolhas, .resultado-final {
+  margin: 10px 0;
+}
+
+.botao, .botao-acoes {
+  background-color: #ff66b2; /* Botões em tom de rosa escuro */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.botao:hover, .botao-acoes:hover {
+  background-color: #ff3385; /* Escurece o botão ao passar o mouse */
+}
+
+.acoes {
+  margin-top: 20px;
+}
